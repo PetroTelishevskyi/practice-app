@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^7.2.1",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
+    "plotly.js-basic-dist-min": "^1.55.2",
     "react": "^16.13.1",
+    "react-chart-editor": "^0.42.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },

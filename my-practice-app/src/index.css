@@ -12,7 +12,31 @@ code {
     monospace;
 }
 
-
 .app {
   height: 100vh;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.csv-input {
+  height:  50px;
+  width: 85%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container p {
+  padding-top: 10px;
+  color: #666;
 }

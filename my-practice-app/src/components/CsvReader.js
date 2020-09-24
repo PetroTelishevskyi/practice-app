@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CSVReader from "react-csv-reader";
 
-export default class CSVReader extends Component {
+export default class CsvReader extends Component {
 
     handleFileLoaded(data){
         let obj = {};

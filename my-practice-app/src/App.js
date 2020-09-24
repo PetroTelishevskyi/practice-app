@@ -40,6 +40,12 @@ export default class App extends Component {
     };
   }
 
+  componentDidMount() {
+    this.csvUpdater.on('update', (dataSources) => {
+      this.setState({dataSources});
+    });
+  }
+
   getChildContext() {
     return {
       localize: key => localizeString({}, 'en', key),

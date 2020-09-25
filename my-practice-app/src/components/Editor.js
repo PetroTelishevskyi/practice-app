@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
+import Modal from 'react-awesome-modal';
 import {
-    GraphCreatePanel,
-    StyleLayoutPanel,
-    StyleAxesPanel,
     StyleTracesPanel,
-    StyleLegendPanel,
     SingleSidebarItem,
     Button,
     PanelMenuWrapper,
 } from 'react-chart-editor';
-import Modal from 'react-awesome-modal';
 import CsvReader from '../components/CsvReader';
+import GraphCreatePanel  from '../components/GraphCreatePanel';
+import StyleAxesPanel from '../components/StyleAxesPanel';
+import StyleLegendPanel from '../components/StyleLegendPanel';
+import StyleLayoutPanel from '../components/StyleLayoutPanel';
+
 
 
 export default class Editor extends Component {
